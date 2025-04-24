@@ -3,26 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alphington Accounting Services | Professional Financial Solutions</title>
     <meta name="description" content="Transform your business finances with Alphington's premium accounting services. Expert payroll processing, cash flow forecasting, and dedicated financial management.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-sans antialiased text-gray-900 bg-white">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-gray-800">Alphington</div>
+                <a href="https://test-acc-12349.github.io/alphington-accounting-services-2025-04-24-kkw7y" class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors duration-300">Alphington</a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#services" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Services</a>
-                    <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600 hover:text-gray-900">
-                    <i class="fas fa-bars text-xl"></i>
+                <button class="mobile-menu-button md:hidden text-gray-600 hover:text-gray-900" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">Services</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 px-4 py-2">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -32,13 +58,13 @@
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                    We transform numbers into opportunities
+                    Transforming Financial Complexity Into Clear Success
                 </h1>
                 <p class="text-xl text-gray-600 mb-10 leading-relaxed">
-                    Professional accounting services tailored to drive your business growth
+                    Expert accounting services that drive growth, optimize performance, and secure your financial future with personalized solutions and strategic insights.
                 </p>
-                <a href="https://theaccountants.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                    Get Started Today
+                <a href="https://theaccountants.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Start Your Financial Journey
                 </a>
             </div>
         </div>
@@ -47,28 +73,28 @@
     <!-- Features Section -->
     <section id="services" class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Comprehensive Financial Services</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Comprehensive Financial Solutions</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 transform hover:rotate-12 transition-transform duration-300">
                         <i class="fas fa-user-tie text-2xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Dedicated Manager</h3>
-                    <p class="text-gray-600 leading-relaxed">Your personal financial expert, providing tailored guidance and support.</p>
+                    <h3 class="text-xl font-bold mb-4">Personal Financial Expert</h3>
+                    <p class="text-gray-600 leading-relaxed">Your dedicated financial manager provides customized guidance, strategic planning, and proactive support to optimize your business performance.</p>
                 </div>
-                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 transform hover:rotate-12 transition-transform duration-300">
                         <i class="fas fa-money-check-alt text-2xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Payroll Processing</h3>
-                    <p class="text-gray-600 leading-relaxed">Efficient and accurate payroll management for your business.</p>
+                    <h3 class="text-xl font-bold mb-4">Advanced Payroll Solutions</h3>
+                    <p class="text-gray-600 leading-relaxed">Streamline your payroll with automated processing, tax compliance, and real-time reporting for perfect accuracy and efficiency.</p>
                 </div>
-                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 transform hover:rotate-12 transition-transform duration-300">
                         <i class="fas fa-chart-line text-2xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Cash Flow Forecasting</h3>
-                    <p class="text-gray-600 leading-relaxed">Strategic financial planning to optimize your business growth.</p>
+                    <h3 class="text-xl font-bold mb-4">Predictive Financial Analysis</h3>
+                    <p class="text-gray-600 leading-relaxed">Make informed decisions with advanced cash flow forecasting, trend analysis, and strategic financial planning tools.</p>
                 </div>
             </div>
         </div>
@@ -77,29 +103,85 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Transform Your Business</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Unlock Your Business Potential</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
-                    <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div class="text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 hover:bg-blue-700 transition-colors duration-300">
                         <i class="fas fa-lightbulb text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Financial Clarity</h3>
-                    <p class="text-gray-600">Clear insights into your financial position for informed decision-making.</p>
+                    <h3 class="text-xl font-bold mb-4">Crystal Clear Insights</h3>
+                    <p class="text-gray-600">Transform complex financial data into actionable insights, enabling confident decision-making and strategic growth.</p>
                 </div>
-                <div class="text-center">
-                    <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div class="text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 hover:bg-blue-700 transition-colors duration-300">
                         <i class="fas fa-chess text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Strategic Planning</h3>
-                    <p class="text-gray-600">Expert guidance to develop and execute effective business strategies.</p>
+                    <h3 class="text-xl font-bold mb-4">Strategic Excellence</h3>
+                    <p class="text-gray-600">Develop winning business strategies backed by comprehensive financial analysis and industry expertise.</p>
                 </div>
-                <div class="text-center">
-                    <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div class="text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 hover:bg-blue-700 transition-colors duration-300">
                         <i class="fas fa-chart-bar text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Business Growth</h3>
-                    <p class="text-gray-600">Accelerate your business growth with data-driven financial insights.</p>
+                    <h3 class="text-xl font-bold mb-4">Accelerated Growth</h3>
+                    <p class="text-gray-600">Achieve sustainable business expansion through optimized financial operations and strategic resource allocation.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Alphington transformed our financial operations completely. Their dedicated manager helped us reduce costs by 30% and streamline our payroll process. The insights we've gained are invaluable."</p>
+                    <p class="font-semibold">Sarah Johnson</p>
+                    <p class="text-sm text-gray-500">CEO, TechStart Solutions</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The cash flow forecasting tools have been game-changing for our business planning. We've seen a 45% improvement in our financial efficiency."</p>
+                    <p class="font-semibold">Michael Chen</p>
+                    <p class="text-sm text-gray-500">CFO, GrowthWise Industries</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Professional, responsive, and incredibly knowledgeable. Their strategic guidance helped us navigate complex financial challenges during our expansion."</p>
+                    <p class="font-semibold">Emma Thompson</p>
+                    <p class="text-sm text-gray-500">Owner, Retail Solutions Co.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400">★★★★★</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The personalized attention and expertise we've received has been exceptional. Our business has grown 40% since partnering with Alphington."</p>
+                    <p class="font-semibold">David Roberts</p>
+                    <p class="text-sm text-gray-500">Director, Innovation Labs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Story</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-600 leading-relaxed">
+                    Founded in 2010, Alphington Accounting Services emerged from a vision to revolutionize how businesses handle their finances. Our founders, seasoned financial experts with over 50 years of combined experience, recognized the need for more personalized, technology-driven accounting solutions that could adapt to the modern business landscape.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Today, our mission remains unchanged: to empower businesses with crystal-clear financial insights and strategic guidance. We believe in combining human expertise with cutting-edge technology, maintaining the highest standards of integrity, and fostering long-term partnerships that drive mutual success. Our core values of excellence, innovation, and client-centered service guide every decision we make.
+                </p>
             </div>
         </div>
     </section>
@@ -109,29 +191,38 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-xl font-semibold mb-3">What services do you offer?</h3>
-                    <p class="text-gray-600">We provide comprehensive accounting services including dedicated financial management, payroll processing, and cash flow forecasting.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">What makes your accounting services unique?</h3>
+                    <p class="text-gray-600">Our combination of dedicated financial managers, advanced technology, and comprehensive service offerings provides a truly personalized experience. We don't just process numbers - we deliver strategic insights and proactive solutions.</p>
                 </div>
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-xl font-semibold mb-3">How can I get started?</h3>
-                    <p class="text-gray-600">Simply contact us through email or our website, and we'll schedule a consultation to discuss your needs.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">How quickly can you implement your services?</h3>
+                    <p class="text-gray-600">We can typically begin implementation within 5-7 business days of engagement. Our streamlined onboarding process ensures a smooth transition with minimal disruption to your operations.</p>
                 </div>
-                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                    <h3 class="text-xl font-semibold mb-3">What makes your service unique?</h3>
-                    <p class="text-gray-600">Our combination of dedicated managers, advanced forecasting, and strategic planning sets us apart in delivering value to your business.</p>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">What industries do you specialize in?</h3>
+                    <p class="text-gray-600">We serve a diverse range of industries including technology, retail, professional services, and manufacturing. Our expertise allows us to adapt our services to meet specific industry requirements.</p>
+                </div>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">What technology and software do you use?</h3>
+                    <p class="text-gray-600">We utilize industry-leading financial software and custom tools, integrating seamlessly with popular platforms like QuickBooks, Xero, and Sage. Our tech stack is regularly updated to ensure optimal performance.</p>
+                </div>
+                <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 transform hover:scale-101">
+                    <h3 class="text-xl font-semibold mb-3">What support can I expect after signing up?</h3>
+                    <p class="text-gray-600">You'll receive dedicated support from your personal financial manager, regular performance reviews, 24/7 access to our client portal, and ongoing strategic guidance to help achieve your business goals.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready to Transform Your Business?</h2>
-            <p class="text-xl text-blue-100 mb-10">Contact us today to start your journey towards financial success</p>
-            <a href="mailto:contact@example.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg">
-                Contact Us Now
+    <section id="contact" class="py-24 bg-blue-600 relative">
+        <div class="absolute inset-0 bg-cover bg-center opacity-10" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready to Transform Your Financial Future?</h2>
+            <p class="text-xl text-blue-100 mb-10">Take the first step towards optimized financial performance</p>
+            <a href="mailto:contact@example.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                Schedule Your Free Consultation
             </a>
         </div>
     </section>
@@ -142,35 +233,36 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold text-white mb-4">Alphington</h3>
-                    <p class="text-gray-400">Transform your business with expert financial services.</p>
+                    <p class="text-gray-400">Empowering businesses through expert financial solutions.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Services</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Dedicated Manager</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Payroll Processing</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Cash Flow Forecasting</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">Dedicated Manager</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">Payroll Processing</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">Cash Flow Forecasting</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Company</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">About Us</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Careers</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="https://test-acc-12349.github.io/alphington-accounting-services-2025-04-24-kkw7y/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://test-acc-12349.github.io/alphington-accounting-services-2025-04-24-kkw7y/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/alphington-accounting-services-2025-04-24-kkw7y/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Contact</h4>
                     <p class="mb-2">Email: contact@example.com</p>
                     <div class="flex space-x-4 mt-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110">
                             <i class="fab fa-linkedin text-xl"></i>
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110">
                             <i class="fab fa-twitter text-xl"></i>
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 transform hover:scale-110">
                             <i class="fab fa-facebook text-xl"></i>
                         </a>
                     </div>
@@ -181,5 +273,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
